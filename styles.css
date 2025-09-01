@@ -223,12 +223,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    min-height: 400px;
 }
 
 .hero-image img {
     max-width: 100%;
     height: auto;
-    max-height: 500px;
+    max-height: 80vh;
+    width: auto;
+    object-fit: contain;
     filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3));
 }
 
